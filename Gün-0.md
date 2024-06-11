@@ -75,8 +75,6 @@ Yukarıdaki CSS kodu, sayfadaki tüm elementlerin kenar boşluklarını (margin)
 
 Grup seçiciler, virgül (,) kullanarak birden fazla seçiciyi bir araya getirir ve hepsine aynı stilleri uygular.
 
-
-
 ```css
 h1, h2, h3 {
     font-family: Arial, sans-serif;
@@ -85,7 +83,6 @@ h1, h2, h3 {
 ```
 
 Yukarıdaki CSS kodu, <h1>, <h2> ve <h3> elementlerinin yazı tipini Arial ve metin rengini lacivert yapar.
-
 Belirli elemanlara ayrı ayrı aynı özellikleri verip kodu uzatmamızı engelleyen bir özellik.
 
 
@@ -99,7 +96,7 @@ Bağlamsal seçiciler, belirli bir hiyerarşideki elementleri seçmek için kull
 <div/>
 ```
 
-bu şekilde belirli bir hiyerarşi içinde çocuk evebeyin düzeni ile seçip manipüle edebiliriz 
+Bu şekilde belirli bir hiyerarşi içinde çocuk evebeyin düzeni ile seçip manipüle edebiliriz.
 
 
 ```css
