@@ -82,7 +82,7 @@ h1, h2, h3 {
 }
 ```
 
-Yukarıdaki CSS kodu <h1> <h2> ve <h3> elementlerinin yazı tipini Arial ve metin rengini lacivert yapar.
+Yukarıdaki CSS kodu ```html <h1> <h2> <h3> ```  elementlerinin yazı tipini Arial ve metin rengini lacivert yapar.
 Belirli elemanlara ayrı ayrı aynı özellikleri verip kodu uzatmamızı engelleyen bir özellik.
 
 
@@ -105,7 +105,7 @@ div p {
 }
 ```
 
-Yukarıdaki CSS kodu sadece bir <div> elementi içinde bulunan <p> elementlerinin yazı boyutunu 14 piksel yapar.
+Yukarıdaki CSS kodu sadece bir ```html <div>```  elementi içinde bulunan ```html <p>``` elementlerinin yazı boyutunu 14 piksel yapar.
 
 div > p 
 kısaca div içinde ki p elemanını al ve ```css font-size: 14px;``` yap diyoruz
@@ -119,7 +119,7 @@ ul > li {
     list-style-type: none;
 }
 ```
-Yukarıdaki CSS kodu sadece bir <ul> elementinin doğrudan çocukları olan <li> elementlerinin madde işaretlerini kaldırır.
+Yukarıdaki CSS kodu sadece bir ```html <ul>``` elementinin doğrudan çocukları olan ```html <li>``` elementlerinin madde işaretlerini kaldırır.
 
 #### Komşu Kardeş Seçiciler (Adjacent Sibling Selectors)
 
@@ -132,7 +132,7 @@ h1 + p {
 ```
 
 
-Yukarıdaki CSS kodu bir <h1> elementinden hemen sonra gelen <p> elementinin üst kenar boşluğunu sıfırlar.
+Yukarıdaki CSS kodu bir ```html <h1>``` elementinden hemen sonra gelen ```html <p>``` elementinin üst kenar boşluğunu sıfırlar.
 
 #### Genel Kardeş Seçiciler (General Sibling Selectors)
 
@@ -143,7 +143,7 @@ h1 ~ p {
     color: gray;
 }
 ```
-Yukarıdaki CSS kodu bir <h1> elementinin tüm kardeş <p> elementlerinin metin rengini gri yapar.
+Yukarıdaki CSS kodu bir ```html <h1>``` elementinin tüm kardeş ```html <p>``` elementlerinin metin rengini gri yapar.
 
 ## Özellik Seçiciler (Attribute Selectors)
 
