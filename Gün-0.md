@@ -25,6 +25,7 @@ Sınıf seçiciler, belirli bir sınıfa (class) sahip elementleri seçmek için
 <p class="renk">Merhaba!!</p>
 ``` 
 #### CSS'de Sınıf Tanımlama
+
 ```Css
 .renk { 
     color: red; 
