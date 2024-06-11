@@ -135,6 +135,7 @@ h1 + p {
 Yukarıdaki CSS kodu, bir <h1> elementinden hemen sonra gelen <p> elementinin üst kenar boşluğunu sıfırlar.
 
 #### Genel Kardeş Seçiciler (General Sibling Selectors)
+
 Genel kardeş seçiciler, belirli bir elementin tüm kardeş elementlerini seçer. ~ sembolü kullanılarak tanımlanır.
 
 ```css
@@ -145,6 +146,7 @@ h1 ~ p {
 Yukarıdaki CSS kodu, bir <h1> elementinin tüm kardeş <p> elementlerinin metin rengini gri yapar.
 
 ## Özellik Seçiciler (Attribute Selectors)
+
 Özellik seçiciler, belirli bir özelliğe sahip elementleri seçmek için kullanılır. Köşeli parantezler içinde özellik adı kullanılarak tanımlanır.
 
 ```css
