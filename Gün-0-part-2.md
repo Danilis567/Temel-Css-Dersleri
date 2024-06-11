@@ -57,9 +57,16 @@ dört değer verirseniz saat yönünde olucak şekilde özeleştirebilirsiniz.
 
 3. **Dış Boşluklar (Margin):** Kutunun diğer elementlere olan uzaklığı. Dış boşluklar, elementin sayfa içindeki konumunu belirler.
 
-### Ek Özellikler
+```css
+.margin-box {
+        width: 200px;
+        height: 200px;
+        background-color: #f0f0f0;
+        margin: 20px;
+    }
+```
 
-1. **Border Radius:** Kenar köşelerinin yuvarlatılmasını sağlar. Bu özellik, köşeleri düz veya yuvarlak hale getirerek kutuların görünümünü değiştirebilir. Pek anlatılıcak bir yönü yok border-color ve border-style hariç benzer bir kullanımı var.
+4. **Border Radius:** Kenar köşelerinin yuvarlatılmasını sağlar. Bu özellik, köşeleri düz veya yuvarlak hale getirerek kutuların görünümünü değiştirebilir. Pek anlatılıcak bir yönü yok border-color ve border-style hariç benzer bir kullanımı var.
 
 ```css
 .rounded-box {
