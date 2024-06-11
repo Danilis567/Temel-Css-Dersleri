@@ -3,6 +3,7 @@
 CSS seçicileri, HTML elementlerini hedef alarak bu elementlere stil uygulamak için kullanılır. Bu dosyada CSS seçicilerinin en yaygın türlerini ve nasıl kullanıldıklarını inceleyeceğiz.
 
 ## Tür Seçiciler (Type Selectors)
+
 Tür seçiciler, doğrudan HTML elementlerinin adını kullanarak bu elementleri seçer.
 
 ```css
@@ -71,6 +72,7 @@ Yukarıdaki CSS kodu, sayfadaki tüm elementlerin kenar boşluklarını (margin)
 
 
 ## Grup Seçiciler (Group Selectors)
+
 Grup seçiciler, virgül (,) kullanarak birden fazla seçiciyi bir araya getirir ve hepsine aynı stilleri uygular.
 
 
@@ -112,6 +114,7 @@ div > p
 kısaca div içinde ki p elemanını al ve ```css font-size: 14px;``` yap diyoruz
 
 #### Çocuk Seçiciler (Child Selectors)
+
 Çocuk seçiciler, belirli bir elementin doğrudan çocuklarını seçer. > sembolü kullanılarak tanımlanır.
 
 ```css
@@ -122,6 +125,7 @@ ul > li {
 Yukarıdaki CSS kodu, sadece bir <ul> elementinin doğrudan çocukları olan <li> elementlerinin madde işaretlerini kaldırır.
 
 #### Komşu Kardeş Seçiciler (Adjacent Sibling Selectors)
+
 Komşu kardeş seçiciler, belirli bir elementin hemen yanındaki kardeş elementi seçer. + sembolü kullanılarak tanımlanır.
 
 ```css
