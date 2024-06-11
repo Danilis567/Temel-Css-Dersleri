@@ -73,7 +73,7 @@ Yukarıdaki CSS kodu, sayfadaki tüm elementlerin kenar boşluklarını (margin)
 
 ## Grup Seçiciler (Group Selectors)
 
-Grup seçiciler, virgül (,) kullanarak birden fazla seçiciyi bir araya getirir ve hepsine aynı stilleri uygular.
+Grup seçiciler virgül kullanarak birden fazla seçiciyi bir araya getirir ve hepsine aynı stilleri uygular.
 
 ```css
 h1, h2, h3 {
