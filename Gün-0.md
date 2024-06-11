@@ -105,21 +105,21 @@ div p {
 }
 ```
 
-Yukarıdaki CSS kodu, sadece bir <div> elementi içinde bulunan <p> elementlerinin yazı boyutunu 14 piksel yapar.
+Yukarıdaki CSS kodu sadece bir <div> elementi içinde bulunan <p> elementlerinin yazı boyutunu 14 piksel yapar.
 
 div > p 
 kısaca div içinde ki p elemanını al ve ```css font-size: 14px;``` yap diyoruz
 
 #### Çocuk Seçiciler (Child Selectors)
 
-Çocuk seçiciler, belirli bir elementin doğrudan çocuklarını seçer. > sembolü kullanılarak tanımlanır.
+Çocuk seçiciler belirli bir elementin doğrudan çocuklarını seçer. > sembolü kullanılarak tanımlanır.
 
 ```css
 ul > li {
     list-style-type: none;
 }
 ```
-Yukarıdaki CSS kodu, sadece bir <ul> elementinin doğrudan çocukları olan <li> elementlerinin madde işaretlerini kaldırır.
+Yukarıdaki CSS kodu sadece bir <ul> elementinin doğrudan çocukları olan <li> elementlerinin madde işaretlerini kaldırır.
 
 #### Komşu Kardeş Seçiciler (Adjacent Sibling Selectors)
 
@@ -132,30 +132,30 @@ h1 + p {
 ```
 
 
-Yukarıdaki CSS kodu, bir <h1> elementinden hemen sonra gelen <p> elementinin üst kenar boşluğunu sıfırlar.
+Yukarıdaki CSS kodu bir <h1> elementinden hemen sonra gelen <p> elementinin üst kenar boşluğunu sıfırlar.
 
 #### Genel Kardeş Seçiciler (General Sibling Selectors)
 
-Genel kardeş seçiciler, belirli bir elementin tüm kardeş elementlerini seçer. ~ sembolü kullanılarak tanımlanır.
+Genel kardeş seçiciler belirli bir elementin tüm kardeş elementlerini seçer. ~ sembolü kullanılarak tanımlanır.
 
 ```css
 h1 ~ p {
     color: gray;
 }
 ```
-Yukarıdaki CSS kodu, bir <h1> elementinin tüm kardeş <p> elementlerinin metin rengini gri yapar.
+Yukarıdaki CSS kodu bir <h1> elementinin tüm kardeş <p> elementlerinin metin rengini gri yapar.
 
 ## Özellik Seçiciler (Attribute Selectors)
 
-Özellik seçiciler, belirli bir özelliğe sahip elementleri seçmek için kullanılır. Köşeli parantezler içinde özellik adı kullanılarak tanımlanır.
+Özellik seçiciler belirli bir özelliğe sahip elementleri seçmek için kullanılır. Köşeli parantezler içinde özellik adı kullanılarak tanımlanır.
 
 ```css
 a[target="_blank"] {
     color: red;
 }
 ```
-Yukarıdaki CSS kodu, target="_blank" özelliğine sahip tüm <a> elementlerinin metin rengini kırmızı yapar.
+Yukarıdaki CSS kodu target="_blank" özelliğine sahip tüm <a> elementlerinin metin rengini kırmızı yapar.
 
-Bu temel seçici türleri, CSS kullanarak HTML elementlerini hedef almanızı ve stilize etmenizi sağlar. Seçicileri doğru bir şekilde kullanarak web sayfanızın görünümünü ve hissini tamamen kontrol edebilirsiniz.
+Bu temel seçici türleri CSS kullanarak HTML elementlerini hedef almanızı ve stilize etmenizi sağlar. Seçicileri doğru bir şekilde kullanarak web sayfanızın görünümünü ve hissini tamamen kontrol edebilirsiniz.
 
 Şimdilik bunları bilmek yeterli bir kaç pratik ile pekiştirebilirsiniz.
