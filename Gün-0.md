@@ -82,13 +82,13 @@ h1, h2, h3 {
 }
 ```
 
-Yukarıdaki CSS kodu, <h1>, <h2> ve <h3> elementlerinin yazı tipini Arial ve metin rengini lacivert yapar.
+Yukarıdaki CSS kodu <h1> <h2> ve <h3> elementlerinin yazı tipini Arial ve metin rengini lacivert yapar.
 Belirli elemanlara ayrı ayrı aynı özellikleri verip kodu uzatmamızı engelleyen bir özellik.
 
 
 ## Bağlamsal Seçiciler (Descendant Selectors)
 
-Bağlamsal seçiciler, belirli bir hiyerarşideki elementleri seçmek için kullanılır. Bir elementin içindeki belirli elementleri hedef alır.
+Bağlamsal seçiciler belirli bir hiyerarşideki elementleri seçmek için kullanılır. Bir elementin içindeki belirli elementleri hedef alır.
 
 ```html
 <div>
